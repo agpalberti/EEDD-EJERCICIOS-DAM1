@@ -1,3 +1,13 @@
+/*
+* Fecha: 26/01/2022
+* Versión 1.0
+* Autor: Alejandro González Parra
+* Empresa/Entidad: IES Rafael Alberti
+* Proyecto: Funciones para trabajar con matrices.
+* */
+
+
+
 inline fun <reified T> mezclarVectores(vector1: Array<T>, vector2: Array<T>): Array<Array<T>> {
     val array = Array<Array<T>>(2) { emptyArray() }
     array[0] = vector1
